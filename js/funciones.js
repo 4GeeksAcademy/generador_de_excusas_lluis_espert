@@ -9,9 +9,13 @@ function prueba(){
 
 
     let x = Math.floor((Math.random() * 3) + 0);
+
     let x2 = Math.floor((Math.random() * 3) + 0);
+
     let x3 = Math.floor((Math.random() * 3) + 0);
+
     let x4 = Math.floor((Math.random() * 3) + 0);
+    
     document.getElementById("excusas").innerHTML = who[x] + " "+  action[x2]+ " "+ what[x3] +" "+  when[x4];
 
 }
